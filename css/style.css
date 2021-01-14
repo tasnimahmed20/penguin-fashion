@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*Useable Class*/
+
+h1 {
+    color: #363958;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #FABE4C;
+}
+
+p {
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+h2 {
+    color: #363958;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #363958;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+
+/*Header Section Start*/
+
+.header-area {
+    padding: 15px 0px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0px;
+}
+
+nav ul li a {
+    color: #1b1b1b;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li:hover a {
+    color: #A4BC46;
+}
+
+.toggle-icon {
+    font-size: 32px;
+}
+
+
+/*Header Section End*/
+
+
+/*Banner Section Start*/
+
+.banner-area p {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.banner-area img {
+    width: 80%;
+}
+
+.buy-now-btn {
+    padding: 16px 40px;
+    background: linear-gradient(to top, #9EB73D, #8CA723);
+    color: #fff;
+    border-radius: 12px;
+    font-size: 18px;
+    transition: 0.4s ease-in-out;
+}
+
+.buy-now-btn i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.buy-now-btn:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+
+/*Banner Section End*/
+
+
+/*Women Jacket Section Start*/
+
+.card {
+    box-shadow: 0px 11px 10px -15px gray;
+}
+
+.card-footer .buy-now-btn {
+    padding: 12px 25px;
+}
+
+.card-header {
+    background: #F1F1F1;
+    border-radius: 25px!important;
+    text-align: center;
+}
+
+.card-header img {
+    height: 328px;
+}
+
+
+/*Women Jacket Section End*/
+
+
+/*Feature Section Start*/
+
+.feature-content {
+    padding: 10px 0px;
+    box-shadow: 0px 11px 10px -15px gray;
+}
+
+.feature-content img {
+    margin-top: 15px;
+    width: 85px;
+    margin-right: 30px;
+}
+
+.feature-content p {
+    width: 75%;
+}
+
+
+/*Feature Section End*/
+
+
+/*Product Description*/
+
+.description-area img {
+    height: 400px;
+}
+
+.description-area h2 {
+    width: 75%;
+}
+
+.description-area h6 {
+    margin: 20px 0px;
+    width: 90%;
+    font-size: 18px;
+    color: #808080;
+    line-height: 1.5;
+}
+
+.read-btn {
+    margin-top: 15px;
+    padding: 12px 32px;
+    border: 2px solid #8CA723;
+    color: #8CA723;
+    border-radius: 24px;
+    font-size: 18px;
+    transition: 0.4s ease-in-out;
+}
+
+.read-btn:hover {
+    background-color: #8CA723;
+    color: #fff;
+}
+
+
+/*Product Description*/
+
+
+/*Subscription Section Start*/
+
+.offer-area {
+    background: #BF3968;
+    padding: 50px 0px;
+}
+
+.offer-area img {
+    width: 250px;
+}
+
+.offer-area h1 {
+    margin-top: 15px;
+    margin-right: 35px;
+    margin-bottom: 0;
+    font-size: 100px;
+    color: #fff;
+    position: relative;
+}
+
+.offer-area h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.offer-area .percent {
+    font-size: 40px;
+    position: absolute;
+}
+
+.offer-area .offer-off {
+    font-size: 35px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.subscription-box {
+    padding: 30px 45px;
+    background: #142B50;
+}
+
+.subscription-box h5 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.subscription-box input {
+    padding: 13px 15px;
+}
+
+.subscription-box button {
+    transition: 0.4s ease-in-out;
+}
+
+.subscription-box button:hover,
+.subscription-box button:focus {
+    background: #BF3968;
+    color: #fff;
+    outline: none;
+    border: 1px solid #BF3968;
+}
+
+
+/*Subscription Section End*/

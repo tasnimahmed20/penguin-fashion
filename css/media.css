@@ -1,0 +1,185 @@
+/*---Custom BreakPoint and media Query */
+
+@media (min-width:320px) and (max-width:475.98px) {
+    section {
+        padding: 40px 0px;
+    }
+    nav img {
+        width: 200px;
+    }
+    .toggle-icon {
+        font-size: 26px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .banner-area p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner-area img {
+        margin-top: 40px;
+    }
+    .banner-content {
+        margin-top: 25px;
+    }
+    .jacket_area h2 {
+        text-align: center;
+    }
+    .jacket_area .card {
+        margin-bottom: 45px;
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .feature-content img {
+        float: none!important;
+    }
+    .feature-content p {
+        width: 100%;
+    }
+    .online-shopping-img {
+        margin-top: 0!important;
+        margin-bottom: 40px;
+    }
+    .description-area img {
+        margin-bottom: 40px;
+    }
+    .description-area h2 {
+        width: 100%;
+        font-size: 26px;
+    }
+    .description-area h6 {
+        width: 100%;
+        font-size: 16px;
+    }
+    .description-area button {
+        text-align: center;
+    }
+    .offer-area h1 {
+        margin-right: 30px;
+        font-size: 60px;
+    }
+    .offer-area h2 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .offer-area .percent {
+        font-size: 25px;
+        top: 10px;
+    }
+    .offer-area .offer-off {
+        font-size: 18px;
+        bottom: 5px;
+    }
+    .subscription-box {
+        padding: 15px 25px;
+    }
+    .subscription-box h5 {
+        font-size: 16px;
+    }
+    .subscription-box input {
+        padding: 11px 13px;
+    }
+    .subscription-area img:last-child {
+        display: none;
+    }
+}
+
+@media (min-width:476px) and (max-width:991.98px) {
+    section {
+        padding: 40px 0px;
+    }
+    h1 {
+        font-size: 42px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .banner-area p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner-area img {
+        margin-top: 40px;
+    }
+    .banner-content {
+        margin-top: 25px;
+    }
+    .jacket_area h2 {
+        text-align: center;
+    }
+    .jacket_area .card {
+        margin-bottom: 55px;
+    }
+    .feature-content {
+        text-align: center;
+    }
+    .feature-content img {
+        float: none!important;
+    }
+    .feature-content p {
+        width: 100%;
+    }
+    .online-shopping-img {
+        margin-top: 0!important;
+        margin-bottom: 40px;
+    }
+    .description-area img {
+        margin-bottom: 40px;
+    }
+    .description-area h2 {
+        width: 100%;
+        font-size: 26px;
+    }
+    .description-area h6 {
+        width: 100%;
+        font-size: 16px;
+    }
+    .description-area button {
+        text-align: center;
+    }
+    .offer-area h1 {
+        margin-right: 30px;
+        font-size: 60px;
+    }
+    .offer-area h2 {
+        font-size: 22px;
+        margin-left: 15px;
+    }
+    .offer-area .percent {
+        font-size: 25px;
+    }
+    .offer-area .offer-off {
+        font-size: 18px;
+        bottom: 5px;
+    }
+    .subscription-box {
+        padding: 15px 25px;
+    }
+    .subscription-box h5 {
+        font-size: 16px;
+    }
+    .subscription-box input {
+        padding: 11px 13px;
+    }
+    .subscription-area img:last-child {
+        display: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1123.98px) {
+    h1 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 23px;
+    }
+    .subscription-box h5 {
+        font-size: 15px;
+        padding-bottom: 4px;
+    }
+}
